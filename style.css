@@ -1,0 +1,79 @@
+/* Element Selector & Đổi màu nền trang */
+body {
+    background-color: #eef2f7;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Class Selector */
+.card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    max-width: 450px;
+    width: 100%;
+}
+
+/* ID Selector & Căn giữa tiêu đề */
+#main-title {
+    text-align: center;
+    color: #1f2937;
+    margin-top: 0;
+}
+
+.intro-text {
+    color: #4b5563;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Định dạng danh sách với các màu sắc khác nhau */
+.hobby-list {
+    list-style-type: square;
+    padding-left: 24px;
+    margin: 20px 0;
+}
+
+.hobby-sport {
+    color: #059669;
+    font-weight: 600;
+}
+
+.hobby-bike {
+    color: #d97706;
+    font-weight: 600;
+}
+
+.hobby-code {
+    color: #2563eb;
+    font-weight: 600;
+}
+
+/* Pseudo-class Selector (:hover, :active) cho nút bấm */
+.action-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.action-btn:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-1px);
+}
+
+.action-btn:active {
+    transform: translateY(0);
+}
